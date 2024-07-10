@@ -27,7 +27,7 @@ function LatestCourses() {
           </motion.button>
         </Link>
       </div>
-      <div className='flex flex-wrap justify-center gap-2 my-5 py-2 bg-[#240750] px-1 rounded-lg'>
+      <div className='flex flex-wrap justify-center gap-2 my-5 py-2 bg-[#0a2351] px-1 rounded-lg'>
         <BasicCard
           imgSrc="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN"
           title="React js for Beginners"
