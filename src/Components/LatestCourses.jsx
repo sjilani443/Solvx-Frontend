@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 
 function LatestCourses() {
   return (
-    <div className='font-poppins pt-10 px-5 bg-gray-200 pb-10'>
-      <div className='flex justify-between px-10 items-center'>
-        <h1 className='smLtext-3xl text-xl'>Latest Courses:</h1>
+    <div className='font-poppins pt-10 px-4 bg-gray-200 pb-10'>
+      <div className='flex justify-between px-2 items-center'>
+        <h1 className='sm:text-2xl text-xl'>Latest Courses:</h1>
         <Link to="/courses">
           <motion.button
             initial={{
@@ -21,13 +21,13 @@ function LatestCourses() {
               backgroundColor: "#d3d3d3",
             }}
             transition={{ duration: 0.2, ease: [0.42, 0, 0.58, 1] }}
-            className="text-secondary px-4 py-2 sm:py-4 rounded"
+            className="text-sm px-2 py-2 rounded"
           >
             Check More
           </motion.button>
         </Link>
       </div>
-      <div className='flex flex-col justify-center items-center md:flex-row my-5 py-2 bg-[#240750] px-3 rounded-lg'>
+      <div className='flex flex-wrap justify-center gap-2 my-5 py-2 bg-[#240750] px-1 rounded-lg'>
         <BasicCard
           imgSrc="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN"
           title="React js for Beginners"
@@ -43,13 +43,13 @@ function LatestCourses() {
         <BasicCard
           imgSrc="https://hackr.io/blog/cpp-course/og-image"
           title="C++"
-          description="This course teaches foundational and advanced concepts of object-oriented programming for building efficient and powerful software applications."
+          description="This course teaches foundational and advanced concepts of OOPS for building software applications."
           buttonText="Learn Now"
         />
         <BasicCard
           imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdCl4zZrcB7kwwZWw7pPXlT2QoFj43IzPcXA&s"
           title="Java"
-          description="This course teaches foundational and advanced concepts of OOPS for building efficient software applications."
+          description="This course teaches foundational and advanced concepts of OOPS for building software applications."
           buttonText="Learn Now"
         />
       </div>

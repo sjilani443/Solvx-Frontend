@@ -1,21 +1,21 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function BasicExample({ imgSrc, title, description, buttonText }) {
+function BasicCard({ imgSrc, title, description, buttonText }) {
   return (
-    <div className="max-w-[20rem] rounded overflow-hidden shadow-lg m-5 font-outfit bg-gray-50 border-4 border-black">
+    <div className="w-[17rem] h-[25rem] rounded overflow-hidden shadow-lg m-5 font-outfit bg-gray-50 border-4 border-black flex flex-col items-center gap-4">
       <img
-        className="w-full"
+        className="w-full object-contain"
         src={imgSrc}
         alt="Card image cap"
       />
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-700 text-base">
+      <div className="px-6 py-2 flex flex-col gap-5">
+        <div className="font-bold text-xl">{title}</div>
+        <p className="text-gray-700 text-base overflow-hidden">
           {description}
         </p>
         <motion.button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -26,4 +26,4 @@ function BasicExample({ imgSrc, title, description, buttonText }) {
   );
 }
 
-export default BasicExample;
+export default BasicCard;

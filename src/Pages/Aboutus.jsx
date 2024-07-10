@@ -4,7 +4,7 @@ import Logo from "../assets/WhatsApp_Image_2024-07-07_at_11.05.45_e531af7c-ai-br
 function Aboutus() {
   return (
     <div className="p-2">
-      <div className="max-w-5xl mx-auto font-outfit flex flex-col items-center justify-center my-24 gap-6 text-2xl bg-[#240750ef] p-8 text-white rounded-lg">
+      <div className="max-w-5xl mx-auto font-outfit flex flex-col items-center justify-center my-24 gap-6 text-2xl sm:text-xl bg-[#240750ef] p-8 text-white rounded-lg">
         <h1 className="text-4xl">About us:</h1>
         <div className="h-[10vh] flex justify-center items-center">
           <img src={Logo} alt="" className="h-[20vh]" />
@@ -25,7 +25,7 @@ function Aboutus() {
           creating a strong foundation for success in the ever-evolving tech
           industry.
         </p>
-        <ul className="list-disc text-2xl">
+        <ul className="list-disc sm:text-2xl text-xl">
         <li className="m-3">Company size - 11-50 employees (3 associated members) </li>
         <li className="m-3">Headquarters - Guntur, Andhra Pradesh</li>
         <li className="m-3">Founded - 2024</li>

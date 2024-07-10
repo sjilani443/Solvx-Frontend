@@ -19,12 +19,12 @@ function Hero() {
               initial={{ opacity: 0, y: 40, color: "white" }}
               animate={{ opacity: 1, y: 0, color: "#111827" }}
               transition={{ duration: 1.2, ease: "easeInOut" }}
-              className="max-w-4xl mx-auto text-center"
+              className="max-w-3xl mx-auto text-center"
             >
-              <h1 className="px-6 sm:text-2xl text-xl text-white font-inter">
+              <h1 className="px-6 text-xl text-white font-inter">
                 Bridging the gap between academia and the corporate
               </h1>
-              <p className="mt-5 text-3xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
+              <p className="mt-5 text-3xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:leading-tight font-pj">
                 Empowering Tomorrow's Innovators,
                 <span className="relative inline-flex sm:inline">
                   <span className="bg-gradient-to-r filter opacity-30 w-full h-full absolute inset-0"></span>
@@ -76,7 +76,7 @@ function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.2 }}
-                className="mt-8 text-gray-500 font-inter text-2xl"
+                className="mt-8 text-gray-500 font-inter text-xl"
               >
                 <i className="fa-solid fa-graduation-cap"></i> Industry Standard
                 Courses.

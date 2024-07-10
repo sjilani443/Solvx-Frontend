@@ -8,7 +8,7 @@ function Courses() {
     <div className='bg-[#240750] h-full flex items-center justify-center font-outfit'>
       <div className='py-10 sm:py-20 sm:px-10 sm:my-4 max-w-8xl mx-auto'>
         <h1 className='text-3xl text-white sm:mb-8 pl-4 sm:pt-4 py-6'>All Courses:</h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 bg-gray-200 px-10 rounded-md py-5'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 bg-gray-200 px-10 rounded-md py-5'>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ function Courses() {
             <BasicCard
             imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdCl4zZrcB7kwwZWw7pPXlT2QoFj43IzPcXA&s"
             title="Java"
-            description="This course teaches foundational and advanced concepts of OOPS for building efficient software applications."
+            description="This course teaches foundational and advanced concepts of OOPS for building software applications."
             buttonText="Learn Now"
           />
           </motion.div>
@@ -77,7 +77,7 @@ function Courses() {
             <BasicCard
             imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdCl4zZrcB7kwwZWw7pPXlT2QoFj43IzPcXA&s"
             title="Java"
-            description="This course teaches foundational and advanced concepts of OOPS for building efficient software applications."
+            description="This course teaches foundational and advanced concepts of OOPS for building software applications."
             buttonText="Learn Now"
           />
           </motion.div>
@@ -113,7 +113,7 @@ function Courses() {
             <BasicCard
             imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdCl4zZrcB7kwwZWw7pPXlT2QoFj43IzPcXA&s"
             title="Java"
-            description="This course teaches foundational and advanced concepts of OOPS for building efficient software applications."
+            description="This course teaches foundational and advanced concepts of OOPS for building software applications."
             buttonText="Learn Now"
           />
           </motion.div>
