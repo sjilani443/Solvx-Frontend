@@ -20,7 +20,7 @@ function Home() {
   });
 
   return (
-    <div className="px-10 pt-[8vh] font-poppins flex flex-col items-center justify-center gap-[10vh] bg-[#240750] pb-20">
+    <div className="px-10 pt-[8vh] font-poppins flex flex-col items-center justify-center gap-[10vh] bg-[#0a2351] pb-20">
       {/* Our Belief Section */}
       <motion.div
         ref={beliefRef}

@@ -12,7 +12,7 @@ function Hero() {
         style={{ backgroundImage: `url(${bgimage})` }}
       >
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#240750] pb-20"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0a2351] pb-20"></div>
         <section className="pt-10 sm:pt-16 font-outfit relative z-10">
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 px-10 pt-10 rounded-lg sm:mt-[10vh]">
             <motion.div

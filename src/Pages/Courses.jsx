@@ -8,7 +8,7 @@ function Courses() {
     <div className='bg-[#240750] h-full flex items-center justify-center font-outfit'>
       <div className='py-10 sm:py-20 sm:px-10 sm:my-4 max-w-8xl mx-auto'>
         <h1 className='text-3xl text-white sm:mb-8 pl-4 sm:pt-4 py-6'>All Courses:</h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 bg-gray-200 px-10 rounded-md py-5'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 bg-gray-200 sm:px-10 px-4 rounded-md py-5'>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
