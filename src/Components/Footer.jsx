@@ -7,7 +7,7 @@ function Footer() {
 
 <footer
   class="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white font-outfit">
-  <div class="container px-6 pt-6 flex justify-between items-center">
+  <div class="container px-6 pt-6 flex flex-col sm:flex-row gap-6 justify-between items-center">
   <div className='h-[7vh] flex justify-center items-center'>
       <img src={portlogo} alt="" style={{ filter: "invert(100%)" }} className='h-[20vh]'/>
     </div>

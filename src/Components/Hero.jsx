@@ -12,19 +12,19 @@ function Hero() {
         style={{ backgroundImage: `url(${bgimage})` }}
       >
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#240750]"></div>
-        <section className="sm:pt-16 font-outfit relative z-10">
-          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 px-10 py-10 rounded-lg sm:mt-[10vh]">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#240750] pb-20"></div>
+        <section className="pt-10 sm:pt-16 font-outfit relative z-10">
+          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 px-10 pt-10 rounded-lg sm:mt-[10vh]">
             <motion.div
               initial={{ opacity: 0, y: 40, color: "white" }}
               animate={{ opacity: 1, y: 0, color: "#111827" }}
               transition={{ duration: 1.2, ease: "easeInOut" }}
               className="max-w-4xl mx-auto text-center"
             >
-              <h1 className="px-6 text-2xl text-white font-inter">
+              <h1 className="px-6 sm:text-2xl text-xl text-white font-inter">
                 Bridging the gap between academia and the corporate
               </h1>
-              <p className="mt-5 text-5xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
+              <p className="mt-5 text-3xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
                 Empowering Tomorrow's Innovators,
                 <span className="relative inline-flex sm:inline">
                   <span className="bg-gradient-to-r filter opacity-30 w-full h-full absolute inset-0"></span>

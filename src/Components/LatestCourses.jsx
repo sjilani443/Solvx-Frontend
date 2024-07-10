@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 function LatestCourses() {
   return (
     <div className='font-poppins pt-10 px-5 bg-gray-200 pb-10'>
-      <div className='flex justify-between px-10'>
-        <h1 className='text-3xl'>Latest Courses:</h1>
+      <div className='flex justify-between px-10 items-center'>
+        <h1 className='smLtext-3xl text-xl'>Latest Courses:</h1>
         <Link to="/courses">
           <motion.button
             initial={{
@@ -21,7 +21,7 @@ function LatestCourses() {
               backgroundColor: "#d3d3d3",
             }}
             transition={{ duration: 0.2, ease: [0.42, 0, 0.58, 1] }}
-            className="text-secondary px-4 py-2 rounded"
+            className="text-secondary px-4 py-2 sm:py-4 rounded"
           >
             Check More
           </motion.button>
