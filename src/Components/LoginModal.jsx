@@ -1,5 +1,3 @@
-// LoginModal.jsx
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +5,7 @@ const LoginModal = ({ onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 font-outfit">
       <div className="fixed inset-0 bg-black opacity-50" onClick={onClose}></div>
-      <div className="bg-gray-800 text-white rounded-lg p-8 w-full max-w-md z-10 relative">
+      <div className="bg-gray-800 text-white rounded-lg p-8 w-full max-w-md mx-4 sm:mx-auto z-10 relative">
         <button className="absolute top-4 right-4 text-white" onClick={onClose}>
           &times;
         </button>
