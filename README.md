@@ -19,9 +19,7 @@ This is the frontend codebase for the landing page of **Solvx Technologies**. Th
 - **Framer Motion**: Animation library for React.
 - **React Router DOM**: Client-side routing.
 - **Material UI (MUI)**: UI components and icons.
-- **React Icons**: Icon library for React.
-- **ESLint**: Linting for code quality.
-- **PostCSS & Autoprefixer**: CSS processing and browser compatibility.
+
 
 ## 📁 Project Structure
 
