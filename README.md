@@ -35,35 +35,6 @@ src/
 public/         # Static public files
 ```
 
-## 🧑‍💻 Getting Started
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/Solvx_Frontend.git
-cd Solvx_Frontend
-npm install
-```
-
-### Development
-
-```bash
-npm run dev
-```
-
-Visit `http://localhost:5173` (or as indicated in your terminal) to view the app.
-
-### Build
-
-```bash
-npm run build
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## 📄 License
 
 This project is licensed under the MIT License.
 
